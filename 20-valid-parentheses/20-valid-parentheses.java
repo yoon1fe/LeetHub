@@ -13,12 +13,7 @@ class Solution {
             if (c == '(' || c == '{' || c == '[') {
                 stack.push(c);
             } else {
-                if (stack.isEmpty()) return false;
-                
-                Character top = stack.pop();
-                if (map.get(c) != top) {
-                    return false;
-                }
+                if (stack.isEmpty() || map.get(c) != stack.pop()) return false;
             }
         }
         
