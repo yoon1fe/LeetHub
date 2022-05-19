@@ -4,14 +4,11 @@ class Solution {
     int right = nums.length - 1;
     
     while (left < right) {
-      int leftNum = nums[left];
-      int rightNum = nums[right];
-      
-      if (leftNum % 2 == 0) {
+      if (nums[left] % 2 == 0) {
         left++;
         continue;
       }
-      if (rightNum % 2 == 0) {
+      if (nums[right] % 2 == 0) {
         swap(nums, left, right);
       }
       
