@@ -30,7 +30,6 @@ class Solution {
     
     if (node.left == null && node.right == null) {
       if (sum == targetSum) {
-        System.out.println(list);
         answer.add(list);
       }
       return;
