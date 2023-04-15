@@ -3,6 +3,7 @@ class Solution {
     char temp = 't';
     int len = s.length;
     for (int i = 0; i < len / 2; i++) {
+      if (s[i] == s[len - 1 - i]) continue;
       swap(s, i, len - 1- i, temp);
     }
   }
