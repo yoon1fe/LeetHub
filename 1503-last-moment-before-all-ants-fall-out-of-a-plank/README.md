@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/">1503. Last Moment Before All Ants Fall Out of a Plank</a></h2><h3>Medium</h3><hr><div><p>We have a wooden plank of the length <code>n</code> <strong>units</strong>. Some ants are walking on the plank, each ant moves with a speed of <strong>1 unit per second</strong>. Some of the ants move to the <strong>left</strong>, the other move to the <strong>right</strong>.</p>
+<h2><a href="https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/solution/">1503. Last Moment Before All Ants Fall Out of a Plank</a></h2><h3>Medium</h3><hr><div><p>We have a wooden plank of the length <code>n</code> <strong>units</strong>. Some ants are walking on the plank, each ant moves with a speed of <strong>1 unit per second</strong>. Some of the ants move to the <strong>left</strong>, the other move to the <strong>right</strong>.</p>
 
 <p>When two ants moving in two <strong>different</strong> directions meet at some point, they change their directions and continue moving again. Assume changing directions does not take any additional time.</p>
 
