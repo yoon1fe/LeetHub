@@ -6,8 +6,7 @@ class KthLargest {
     minHeap = new PriorityQueue<>();
     this.k = k;
     for (int num : nums) {
-      if (minHeap.size() < k) minHeap.add(num);
-      else add(num);
+      add(num);
     }
   }
   
