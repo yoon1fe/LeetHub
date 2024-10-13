@@ -2,8 +2,6 @@ class Solution {
   public int[] smallestRange(List<List<Integer>> nums) {
     int[] pointers = new int[nums.size()];
     int[] answer = {0, Integer.MAX_VALUE};
-    int[] numArray = new int[nums.size()];
-
     
     while (true) {
       int min = Integer.MAX_VALUE;
